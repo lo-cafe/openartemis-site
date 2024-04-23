@@ -3,6 +3,7 @@ import Image from "next/image";
 import ship from "~/assets/ship.svg";
 import Planet from "~/components/Planet";
 import BlackHole from "~/components/BlackHole";
+import Navbar from "~/components/Navbar";
 
 import s from "./page.module.scss";
 
@@ -18,6 +19,7 @@ export default function Home() {
       </div>
       <Planet />
       <BlackHole />
+      <Navbar />
     </main>
   );
 }
