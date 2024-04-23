@@ -1,0 +1,58 @@
+.wrapper {
+  margin-top: 1270px;
+  height: 2000px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  overflow: hidden;
+  background: linear-gradient(
+    180deg,
+    #002e98 7.83%,
+    #002d95 12.16%,
+    #002c91 16.04%,
+    #002b8d 19.63%,
+    #002989 23.1%,
+    #002883 26.6%,
+    #00267d 30.32%,
+    #002475 34.4%,
+    #00216d 39.02%,
+    #001e62 44.33%,
+    #001a57 50.5%,
+    #001649 57.7%,
+    #00123a 66.08%,
+    #000d29 75.82%,
+    #000716 87.07%,
+    #000 100%
+  );
+  background: linear-gradient(
+    180deg,
+    color(display-p3 0.0078 0.1765 0.5725) 7.83%,
+    color(display-p3 0.0077 0.1728 0.5606) 12.16%,
+    color(display-p3 0.0075 0.1687 0.5474) 16.04%,
+    color(display-p3 0.0073 0.164 0.5322) 19.63%,
+    color(display-p3 0.0071 0.1586 0.5147) 23.1%,
+    color(display-p3 0.0068 0.1523 0.4941) 26.6%,
+    color(display-p3 0.0064 0.1448 0.4699) 30.32%,
+    color(display-p3 0.0061 0.1361 0.4417) 34.4%,
+    color(display-p3 0.0056 0.126 0.4087) 39.02%,
+    color(display-p3 0.0051 0.1142 0.3706) 44.33%,
+    color(display-p3 0.0045 0.1007 0.3266) 50.5%,
+    color(display-p3 0.0038 0.0851 0.2762) 57.7%,
+    color(display-p3 0.003 0.0675 0.2189) 66.08%,
+    color(display-p3 0.0021 0.0475 0.1542) 75.82%,
+    color(display-p3 0.0011 0.0251 0.0814) 87.07%,
+    color(display-p3 0 0 0) 100%
+  );
+
+  img {
+    position: relative;
+    bottom: -100px;
+    @media (max-width: 790px) {
+      width: 1000px;
+      height: 540px;
+      bottom: 0;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "actions" : {
+    "build" : {
+      "enabled" : true,
+      "script" : "pnpm build"
+    },
+    "run" : {
+      "enabled" : true,
+      "script" : "pnpm start"
+    }
+  },
+  "openLogOnRun" : "fail",
+  "persistent" : true
+}

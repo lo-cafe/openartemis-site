@@ -1,0 +1,58 @@
+.wrapper {
+  height: 720px;
+  width: 720px;
+  position: relative;
+  overflow: visible;
+
+  img {
+    position: relative;
+    z-index: 1;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 564px;
+    height: 148px;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 564px;
+    background: #fff;
+    background: color(display-p3 1 1 1);
+    filter: blur(125px);
+    z-index: 9;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 2725px;
+    height: 2725px;
+    z-index: -1;
+    background: url("/assets/stars.svg"),
+      radial-gradient(
+        50% 50% at 50% 50%,
+        #d1f1fc 26%,
+        rgba(0, 163, 237, 0.75) 53.5%,
+        #002d98 100%
+      );
+    background: url("/assets/stars.svg"),
+      radial-gradient(
+        50% 50% at 50% 50%,
+        color(display-p3 0.8428 0.9413 0.9842) 26%,
+        color(display-p3 0 0.6275 0.9059 / 0.75) 53.5%,
+        color(display-p3 0.0039 0.1725 0.5725 / 0) 100%
+      );
+    // background-size: 1512px auto;
+    @media (max-width: 790px) {
+      background-size: 600px auto;
+    }
+    background-position: top center;
+    background-repeat: no-repeat;
+  }
+}

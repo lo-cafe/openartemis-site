@@ -1,0 +1,10 @@
+{
+  "actions" : {
+    "run" : {
+      "enabled" : true,
+      "script" : "pnpm dev"
+    }
+  },
+  "openLogOnRun" : "fail",
+  "persistent" : true
+}
